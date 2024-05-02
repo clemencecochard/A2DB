@@ -2,7 +2,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-data = pd.read_csv(, index_col=0)
+data = pd.read_csv("https:/clemencecochard.github.io/A2DB/Table_S2.csv", index_col=0)
 data.head()
 
 #Importation, nettoyage et verification des données
