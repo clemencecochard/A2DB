@@ -12,6 +12,13 @@ data.describe()
 
 sns.heatmap(data=data.iloc[:,42:54])
 
+plt.scatter( data.loc[:,"Start"] , data.loc[:,"Length"] , c= data.loc[:,"CAT_MP48"])
+plt.title("La localisation des gènes en fonction de leur taille, coloré par leur expression en condition MP48")
+plt.xlabel("Localisation du début du gène")
+plt.ylabel("Longueur du gène")
+plt.grid()
+plt.colorbar()
+
 
 
 
