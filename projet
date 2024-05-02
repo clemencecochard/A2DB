@@ -1,1 +1,27 @@
-bebecaca
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+data = pd.read_csv(, index_col=0)
+data.head()
+
+#Importation, nettoyage et verification des données
+data = pd.read_csv(, index_col=0)
+data.head()
+data.info()
+data.describe()
+
+
+
+
+
+
+#Exploration initiale des données
+#Synthèse des résultats de l'exploration des données et des perspectives d'analyse
+#Formuler une ou plusieurs questions / hypotheses 
+###Répondre aux questions avec des operations / graphes, discuter les résultats 
+###Tester les hypotheses avec des tests statistiques appropriés, discuter les résultats
+#Conclusion de l'analyse 
+###discuter la qualité du jeu de données et les ameliorations possibles 
+###formuler des suggestions pour continuer l'analyse
+#References bibliographiques
