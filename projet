@@ -11,6 +11,7 @@ data.head()
 data.info()
 data.describe()
 
+sns.heatmap(data=data.iloc[:,42:54])
 
 
 
